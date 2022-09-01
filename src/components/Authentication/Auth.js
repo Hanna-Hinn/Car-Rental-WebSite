@@ -97,9 +97,9 @@ const Auth = (props) => {
   //function that will determine the url if the user is in login or signUp
   const url = () => {
     if (isLogin) {
-      return "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyBST5lcVP4_TJJIe-Bwf15Im-HS4o7X4S8";
+      return "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=[API-Key]";
     }
-    return "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyBST5lcVP4_TJJIe-Bwf15Im-HS4o7X4S8";
+    return "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=[API-Key]";
   };
 
   //Handle OnClick Submit (Login // Signup )
