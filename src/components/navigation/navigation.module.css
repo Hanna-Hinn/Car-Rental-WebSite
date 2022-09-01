@@ -1,0 +1,21 @@
+.navigation {
+  width: 13em;
+  height: 100%;
+  border: 1px solid rgb(20,20,20);
+}
+
+.profile {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.profile img {
+  width: 13em;
+  height: 200px;
+}
+
+.list__history {
+  display: flex;
+  flex-direction: column;
+}

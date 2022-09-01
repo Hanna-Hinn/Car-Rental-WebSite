@@ -1,0 +1,15 @@
+.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+  margin: 5px;
+  flex-basis: 100%;
+}
+
+.dataPicker {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}

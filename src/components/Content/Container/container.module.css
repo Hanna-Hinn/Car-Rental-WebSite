@@ -1,0 +1,19 @@
+.container {
+  flex: 1;
+  text-align: center;
+  overflow: auto;
+  box-shadow: 0 6px 20px 10px rgba(0, 0, 0, 0.1);
+  height: 90%;
+}
+
+.container__list {
+  flex: 1;
+  height: 90%;
+  text-align: center;
+  overflow: auto;
+  box-shadow: 0 6px 20px 10px rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 200px);
+  grid-auto-rows: min-content;
+  grid-gap: 10px;
+}
